@@ -1,0 +1,521 @@
+@font-face {
+    font-family: Curvilingus;
+    src: url('../fonts/Curvilingus.otf') format('opentype'); 
+
+}
+
+@font-face {
+    font-family: TwCenMTStd;
+    src: url('../fonts/TwCenMTStd.otf') format('opentype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #e4d1b9;
+}
+
+
+.hero-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text h4{
+    font-family: TwCenMTStd;
+    color: #543220;
+    font-size: 3rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+.hero-title {
+    display: flex;
+}
+
+.hero-title h1{
+    font-family: Curvilingus, sans-serif;
+    font-weight: 300;
+    color: #543220;
+    font-size: 8rem;
+}
+
+.hero-title-image img{
+    max-width: 80px;
+}
+
+.hero-line {
+    margin-left: 50%;
+    background-color: #85b26d;
+    width: 3px;
+    height: 6rem;
+    margin-block: 3rem;
+}
+
+.hero-text h3 {
+    display: flex;
+    justify-content: center;
+    font-family: TwCenMTStd;
+    font-weight: 100;
+    color: #543220;
+    font-size: 3rem;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    padding-top: 14rem;
+}
+
+.info-image {
+    border-radius: 50%;
+    border: 2px;
+    padding-inline: 6rem;
+}
+
+.info-image img {
+    width: 500px;
+    border-radius: 50%;
+}
+
+.info-title{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.info-title h2{
+    font-family: Curvilingus;
+    font-weight: 100;
+    font-size: 6rem;
+    color: #543220;
+}
+
+.info-title img{
+    width: 110px;
+    height: 110px;
+}
+
+.info-text {
+    font-family: TwCenMTStd;
+    font-size: 1.9rem;
+    color: #543220;
+    padding-inline: 6rem;
+}
+
+.info-text h2{
+    padding-bottom: 3rem;
+}
+
+.info-p p{
+    margin-bottom: 2rem;
+}
+
+.formacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 14rem;
+}
+
+.formacion-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formacion-title img{
+    width: 80px;
+    height: 80px;
+}
+
+.formacion-title h2{
+    font-family: Curvilingus;
+    font-weight: 100;
+    font-size: 6rem;
+    color: #543220;
+    padding-bottom: 4rem;
+}
+
+.formacion-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.formacion-container > div {
+    flex-basis: 20%;
+    min-height: 100%;
+}
+
+.formacion-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.formacion-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formacion-num h3{
+    font-family: Curvilingus;
+    font-weight: 100;
+    font-size: 3rem;
+    color: #543220;
+    padding-block: 2rem;
+}
+
+.formacion-line {
+    margin-left: 50%;
+    background-color: #85b26d;
+    width: 3px;
+    height: 3rem;
+    margin-bottom: 2rem ;
+}
+
+.formacion-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.formacion-info h4{
+    font-family: TwCenMTStd;
+    font-size: 1.9rem;
+    color: #543220;
+    text-align: center;
+}
+
+.formacion-info h5{
+    font-family: TwCenMTStd;
+    font-size: 1.3rem;
+    color: #543220;
+
+}
+
+.formacion-info p{
+    font-family: TwCenMTStd;
+    font-size: 1.3rem;
+    color: #543220;
+    text-align: center;
+}
+
+.experience {
+    padding-top: 14rem;
+}
+
+.experience-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-title img{
+    width: 80px;
+    height: 80px;
+}
+
+.experience-title h2{
+    font-family: Curvilingus;
+    font-weight: 100;
+    font-size: 6rem;
+    color: #543220;
+    padding-bottom: 4rem;
+}
+
+.experience-line{
+    background-color: #85b26d;
+    width: 3px;
+    height: 6rem;
+}
+
+.experience-text {
+    padding-top: 3rem;
+}
+
+.experience-text p{
+    font-family: TwCenMTStd;
+    font-weight: 100;
+    color: #543220;
+    font-size: 3rem;
+}
+
+.experience-recreo{
+    padding-top: 16rem;
+    display: flex;
+}
+
+.experience-recreo-image {
+    padding-inline: 9rem;
+}
+
+.experience-recreo-image img{
+    max-width: 400px;
+}
+
+.experience-recreo-text {
+    padding-top: 2rem;
+    max-width: 927px;
+}
+
+.experience-recreo-text h2{
+    font-family: Curvilingus;
+    font-weight: 100;
+    font-size: 5rem;
+    color: #543220;
+    margin-bottom: 2rem;
+}
+
+.experience-recreo-text h4{
+    font-family: TwCenMTStd;
+    font-size: 3rem;
+    color: #543220;
+    margin-bottom: 2rem;
+}
+
+.experience-recreo-text p{
+    font-family: TwCenMTStd;
+    font-weight: 100;
+    color: #543220;
+    font-size: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container-images-recreo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8rem;
+    padding-inline: 6rem;
+}
+
+.images-recreo img{
+    max-width: 480px;
+}
+
+.recreo-hitos {
+    padding-top: 14rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.recreo-hitos > div {
+    flex-basis: 50%;
+}
+
+.recreo-hitos-left {
+    padding-inline: 6rem;
+}
+
+.recreo-hitos-left-title {
+    display: flex;
+    align-items: center;
+}
+
+.recreo-hitos-left-title img{
+    width: 60px;
+    height: 60px;
+    margin-left: 1.2rem;
+}
+
+.recreo-hitos-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 3rem;
+    padding-top: 8rem;
+}
+
+.recreo-hitos-left h3 {
+    font-family: Curvilingus;
+    font-weight: 100;
+    font-size: 8rem;
+    color: #543220;
+}
+
+.recreo-hitos-left, .recreo-hitos-right p{
+    font-family: TwCenMTStd;
+    font-weight: 100;
+    color: #543220;
+    font-size: 2.5rem;
+}
+
+.recreo-hitos-left img, .recreo-hitos-right img{
+    max-width: 420px;
+}
+
+.recreo-hitos-right img{
+    padding-top: 3rem;
+}
+
+.recreo-hitos-left-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.experience-compania {
+    padding-top: 14rem;
+    display: flex;
+}
+
+.experience-compania-image {
+    padding-inline: 7rem;
+}
+
+.experience-compania-image img {
+    max-width: 520px;
+}
+
+.experience-compania-text {
+    padding-top: 5rem;
+    max-width: 927px;
+}
+
+.experience-compania-text h2{
+    font-family: Curvilingus;
+    font-weight: 100;
+    font-size: 5rem;
+    color: #543220;
+    margin-bottom: 2rem;
+}
+
+.experience-compania-text h4{
+    font-family: TwCenMTStd;
+    font-size: 3rem;
+    color: #543220;
+    margin-bottom: 2rem;
+}
+
+.experience-compania-text p{
+    font-family: TwCenMTStd;
+    font-weight: 100;
+    color: #543220;
+    font-size: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container-images-compania {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8rem;
+    padding-inline: 6rem;
+}
+
+.images-compania img{
+    max-width: 560px;
+}
+
+.compania-hitos {
+    padding-top: 9rem;
+    display: flex;
+}
+
+.compania-hitos > div {
+    flex-basis: 50%;
+}
+
+.compania-hitos-left {
+    padding-top: 2rem;
+    padding-inline: 7rem;
+}
+
+.compania-hitos-title {
+    display: flex;
+    align-items: center;
+}
+
+.compania-hitos-title h3{
+    font-family: Curvilingus;
+    font-weight: 100;
+    font-size: 8rem;
+    color: #543220;
+}
+
+.compania-hitos-title img {
+    width: 80px;
+    height: 80px;
+    margin-left: 2rem;
+}
+
+.compania-hitos-text p{
+    font-family: TwCenMTStd;
+    font-weight: 100;
+    color: #543220;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.compania-hitos-right {
+    padding-left: 4rem;
+}
+
+.compania-hitos-right img {
+    width: 520px;
+}
+
+.contact {
+    padding-block: 14rem;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text h3 {
+    font-family: Curvilingus;
+    font-weight: 100;
+    font-size: 5rem;
+    color: #543220;
+}
+
+.contact-image {
+    display: flex;
+    justify-content: center;
+    padding-block: 4rem;
+}
+
+.contact-image img{
+    width: 70px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info h5{
+    font-family: TwCenMTStd;
+    font-weight: 1000;
+    color: #543220;
+    font-size: 2.5rem;
+}
+
+.contact-info p {
+    font-family: TwCenMTStd;
+    font-weight: 400;
+    color: #543220;
+    font-size: 2.3rem;
+}
